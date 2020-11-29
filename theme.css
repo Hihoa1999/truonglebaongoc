@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.end {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+}
+@media (max-width: 575px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .right {
+    position: relative;
+    height: 60vh;
+
+    justify-items: center;
+    align-items: center;
+  }
+  .right img {
+    position: absolute;
+    width: 400px;
+    top: 20%;
+    left: 5%;
+  }
+
+  .left {
+    position: relative;
+    height: 100vh;
+  }
+  .left h4 {
+    top: 35%;
+    left: 5%;
+    font-size: 36px;
+    position: absolute;
+    font-family: Florence, cursive;
+  }
+  .left a {
+    top: 60%;
+    left: 5%;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #btn {
+    color: white;
+    background: #332d2d;
+    font-size: 18px;
+    padding: 11px;
+    position: absolute;
+    top: 90%;
+    cursor: pointer;
+    outline: none;
+    font-family: Florence, cursive;
+  }
+}
+@media (min-width: 576px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .right {
+    position: relative;
+    height: 60vh;
+
+    justify-items: center;
+    align-items: center;
+  }
+  .right img {
+    top: 10%;
+    position: absolute;
+    width: 400px;
+    left: 17%;
+  }
+
+  .left {
+    position: relative;
+    height: 100vh;
+  }
+  .left h4 {
+    top: 35%;
+    left: 10%;
+    font-size: 36px;
+    position: absolute;
+    font-family: Florence, cursive;
+  }
+  .left a {
+    top: 60%;
+    left: 10%;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #btn {
+    color: white;
+    background: #332d2d;
+    font-size: 18px;
+    padding: 11px;
+    position: absolute;
+    top: 80%;
+    cursor: pointer;
+    outline: none;
+    font-family: Florence, cursive;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .right {
+    position: relative;
+    height: 100vh;
+    float: left;
+
+    justify-items: center;
+    align-items: center;
+  }
+  .right img {
+    top: 25%;
+    position: absolute;
+    width: 400px;
+    left: -1px;
+  }
+
+  .left {
+    position: relative;
+    height: 100vh;
+    float: left;
+  }
+  .left h4 {
+    top: 35%;
+    left: 10%;
+    font-size: 36px;
+    position: absolute;
+    font-family: Florence, cursive;
+  }
+  .left a {
+    top: 60%;
+    left: 10%;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #btn {
+    color: white;
+    background: #332d2d;
+    font-size: 18px;
+    padding: 11px;
+    position: absolute;
+    top: 93%;
+    cursor: pointer;
+    outline: none;
+    font-family: Florence, cursive;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .right {
+    position: relative;
+    height: 100vh;
+    float: left;
+
+    justify-items: center;
+    align-items: center;
+  }
+  .right img {
+    top: 25%;
+    position: absolute;
+    width: 400px;
+    left: 15%;
+  }
+  .left {
+    position: relative;
+    height: 100vh;
+    float: left;
+  }
+  .left h4 {
+    top: 35%;
+    left: 10%;
+    font-size: 36px;
+    position: absolute;
+    font-family: Florence, cursive;
+  }
+  .left a {
+    top: 50%;
+    left: 10%;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #btn {
+    color: white;
+    background: #332d2d;
+    font-size: 18px;
+    padding: 11px;
+    position: absolute;
+    top: 80%;
+    cursor: pointer;
+    outline: none;
+    font-family: Florence, cursive;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .right {
+    position: relative;
+    height: 100vh;
+    float: left;
+
+    justify-items: center;
+    align-items: center;
+  }
+  .right img {
+    top: 25%;
+    position: absolute;
+    width: 400px;
+    left: 15%;
+  }
+
+  .left {
+    position: relative;
+    height: 100vh;
+    float: left;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .left h4 {
+    top: 35%;
+    left: 10%;
+    font-size: 36px;
+    position: absolute;
+    font-family: Florence, cursive;
+  }
+  .left a {
+    top: 50%;
+    left: 10%;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #btn {
+    color: white;
+    background: #332d2d;
+    font-size: 18px;
+    padding: 11px;
+    position: absolute;
+    top: 80%;
+    cursor: pointer;
+    outline: none;
+    font-family: Florence, cursive;
+    
+  }
+}
